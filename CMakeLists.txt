@@ -30,7 +30,6 @@ if(MAIN_PROJECT)
 	)
 
 	# compiler specific flags
-	message(STATUS "CMAKE_CXX_COMPILER_ID: ${CMAKE_CXX_COMPILER_ID}")
 	if (("${CMAKE_CXX_COMPILER_ID}" MATCHES "Clang") OR ("${CMAKE_CXX_COMPILER_ID}" MATCHES "AppleClang"))
 		add_compile_options(
 			-fcolor-diagnostics # force color for clang (needed for clang + ccache)
