@@ -35,7 +35,7 @@ if(MAIN_PROJECT)
 			-fcolor-diagnostics # force color for clang (needed for clang + ccache)
 			-fdiagnostics-absolute-paths # force absolute paths
 
-			-Qunused-arguments
+			-Wno-unused-arguments
 
 			-Wno-unknown-warning-option
 			-Wno-unused-const-variable
